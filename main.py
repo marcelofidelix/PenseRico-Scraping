@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import pandas as pd
 
 f = open('dados.txt', 'r')
@@ -93,4 +94,4 @@ dic = {'Ano': lista_anos,
 
 df = pd.DataFrame(dic)
 
-
+print(df)
